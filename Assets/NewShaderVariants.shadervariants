@@ -70,3 +70,13 @@ ShaderVariantCollection:
         passType: 4
       - keywords: SHADOWS_DEPTH
         passType: 8
+  - first: {fileID: -6465566751694194690, guid: bf8d4a9e5453ac1479120bb874c150dc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    second:
+      variants:
+      - keywords: UNDERLAY_ON
+        passType: 0

@@ -1,0 +1,18 @@
+4 Colours Only Shader Options
+-----------------------------
+
+Base Texture: The albedo for the material. You can use any texture here without needing to modify it. The shader does the work of converting it to only 4 colours in realtime, based on your settings.
+
+Tiling & Offset: Yes, these are supported and work as expected. Really more useful in the UI shader.
+
+Input Hue Shift: This gives you another way to alter the results yet keep restricted to only 4 colours. This setting will consider the original hues as shifted by a certain amount, thereby changing the resulting colour of the output.
+
+Luminance Cutoff: This is the luminance / lightness level ('L' in the HSL colour) below which all input colours will be converted to the Cutoff Colour. This allows you to give definition to your output no matter the result (try it, you'll see).
+
+Out Colour 1: First desired output colour.
+
+Out Colour 1: Second desired output colour.
+
+Out Colour 1: Third desired output colour.
+
+Cutoff Colour: The colour to use for input areas below the Luminance Cutoff. Also is the fourth output colour!
